@@ -8,7 +8,7 @@ if !qual!==0 (
 ) else (
     set qual="18/bestvideo[height<=?360]+bestaudio/best[height<=?360]"
 )
-cd C:\Users\theo\Videos
+cd C:\example\path
 if not "!url:list==!"=="!url!" (
     set /p v="video or playlist ? (V/P) : "
     if !v!==P (
